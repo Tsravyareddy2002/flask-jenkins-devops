@@ -1,0 +1,7 @@
+services:
+  flask-api-prod:
+    image: flask-api:${TAG}
+    container_name: flask-api-prod
+    ports:
+      - "5000:5000"
+    restart: always

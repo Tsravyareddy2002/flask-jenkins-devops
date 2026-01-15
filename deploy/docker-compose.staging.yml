@@ -1,0 +1,7 @@
+services:
+  flask-api-staging:
+    build: ..
+    container_name: flask-api-staging
+    ports:
+      - "5001:5000"
+    restart: always
